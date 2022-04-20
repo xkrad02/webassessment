@@ -1,0 +1,361 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #989898;
+    margin: 0px;
+}
+
+h1 { font-size: 30px; font-weight: bold; }
+h2 { font-size: 24px; }
+h3 { font-size: 22px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+
+h1, h2, h3, h4, h5 { color: #4F4F4F; }
+
+a {
+    text-decoration: none;
+    color: #4F4F4F;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* Header & Nav */
+header {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    margin: 0px 24px;
+}
+
+header div {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > a {
+    padding-left: 16px;
+}
+
+/* Learn Something Section */
+.banner-section {
+    color: #01161E;
+    display: flex;
+    background-color: #c0c0c0;
+    align-items: center;
+}
+
+.banner-section img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.banner-section h4 {
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+button {
+    color: #fff;
+    background-color: #4F4F4F;
+    width: 60%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Main-info Section */
+.mainInfo-section {
+    display: flex;
+}
+
+.boy {
+    display: flex;    
+    width: 60%;
+    padding: 32px 24px;
+    flex-direction: column;
+}
+
+.boy h2 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.boy p {
+    padding-bottom: 24px;
+}
+
+.sub-mainInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.sub-mainInfo > div {
+    display: flex;
+}
+
+.pic {
+    max-width: 100%;
+    height: auto;
+    padding: 16px 16px; 
+}
+
+.sub-mainInfo div > img {
+    height: auto;
+    max-width: 35%;
+}
+
+.sub-mainInfo div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 65%;
+} 
+
+.sub-mainInfo div > p {
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+
+.sub-mainInfo a {
+    color: #4682b4
+}
+
+.guest-lecturer {
+    background-color: #dbdada;
+}
+
+/* Start Learning Section */
+.courses {
+    text-transform: uppercase;
+}
+
+.start-learning {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #dbdada;
+    padding: 32px 72px;
+}
+
+.start-learning img {
+    height: auto;
+}
+
+.courses-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+}
+
+.courses-info > div {
+    background-color: #fff;
+    margin: 32px 15px;
+    padding-bottom: 24px;
+    inline-size: min-content;
+}
+
+.courses {
+    margin-bottom: 16px;
+    margin-top: 5px;
+}
+
+.courses-info h4 {
+    margin-top: 16px;
+}
+
+.courses-info h4, .courses-info p {
+    padding: 0px 16px;
+}
+
+/* Thesis Exhibits Section */
+.thesis-h {
+    width: 100%;
+    text-align: center;
+    padding: 32px;
+}
+
+.thesis-exhibits {
+    display: flex;
+    justify-content: center;
+}
+
+.thesis-exhibits > div {
+    margin-left: 24px;
+}
+
+.thesis-video {
+    display: flex;    
+    width: 60%;
+    flex-direction: column;
+}
+
+.thesis-video h3 {
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+
+.thesis-video p {
+    padding-bottom: 25px;
+}
+
+.thesis-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.thesis-side > div {
+    display: flex;
+}
+
+.thesis-side div > img {
+    height: auto;
+    width: 35%;
+    padding: 16px;
+}
+
+.thesis-side div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.fisma {
+    background-color: #dbdada;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: #dbdada solid 1px;
+    width: 100%;
+    padding: 16px 0px;
+    padding-left: 24px;
+}
+
+footer a {
+    padding: 0px 10px;
+}
+
+.icons {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    header {
+        height: 64px;
+    }
+    
+    header div, nav, .boy, .courses-info img, .courses-info p, .thesis-side, .thesis-video h3, .thesis-video p {
+        display: none;
+    }
+
+    .banner-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-section img {
+        width: 100%;
+        padding: 0px;
+    }
+  
+    .icons {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+    .words {
+        padding-bottom: 32px;
+        padding-top: 16px;
+    }
+
+    .words button {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 8px;
+    }
+
+    .sub-mainInfo div {
+        flex-direction: column;
+        padding: 0px 32px;
+    }
+    
+    .sub-mainInfo .orientation, .sub-mainInfo .ourcampus, .sub-mainInfo .guest-lecturers {
+        padding: 16px 0px; 
+        padding-left: 16px;
+    }
+
+    .sub-mainInfo img {
+        width: 100%;
+        padding: 0px;
+        margin-top: 32px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .orientation h3 {
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+ 
+    .courses-info > div {
+        margin: 0px;
+        width: 100%;
+        margin-top: 16px;
+        background-color: #dbdada;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 16px;
+    }
+
+    .thesis-exhibits {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thesis-video {
+        width: 100%;
+    }
+
+    footer {
+        padding-left: 0px;
+        padding-left: 16px;
+        margin-top: 32px;
+    }
+
+    .guest-lecturer {
+        background-color: transparent;
+        margin-bottom: 32px;
+    }
+
+    .start-learning {
+        background-color: transparent;
+    }
+}
