@@ -1,4 +1,4 @@
-# webassessment: Colmar Academy
+# Web Assessment: Colmar Academy
 
 Assessment Requirements: 
 Build a responsive website from scratch & explain the thought process when building the web site.
