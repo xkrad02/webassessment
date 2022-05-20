@@ -24,7 +24,7 @@ Build a responsive website from scratch & explain the thought process when build
 
 ![mobile version](./mobile.jpg)
 
-## Development Process
+## Development
 
 ### Built with
 
