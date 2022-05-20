@@ -1,4 +1,38 @@
-# webassessment
+# webassessment: Colmar Academy
+
+Assessment Requirements: 
+Build a responsive website from scratch & explain the thought process when building the web site.
+
+- [Overview](#overview)
+  - [Criteria](#criteria)
+  - [Screenshot](#screenshot)
+- [Development Process](#development)
+  - [Built with](#built-with)
+  - [My Reflections](#Reflections)
+
+## Overview
+
+### Criteria
+- Website is responsive on desktop and web
+- Code is clean and well written
+- Page style accurately reflects specs given
+- Website is deployed to Github Pages and accessible from a link
+
+### Screenshot
+
+![desktop version](./desktop.jpg)
+
+![mobile version](./mobile.jpg)
+
+## Development Process
+
+### Built with
+
+- HTML
+- CSS custom properties
+- Flexbox
+
+### Reflections
 
 ● What did you like about this project?
 Being able to work on something new seems really fun and challenging at the same time. I feel a little sense of achievement when I am able to create something new.
